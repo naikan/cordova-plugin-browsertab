@@ -26,6 +26,7 @@
         </config-file>
         <source-file src="src/android/BrowserTab.java"
             target-dir="src/com/google/cordova/plugin" />
+        <preference name="ANDROID_SUPPORT_TABS_VERSION" default="26.+"/>
         <framework src="com.android.support:customtabs:26.+"/>
         <framework src="src/android/BrowserTab.gradle" custom="true" type="gradleReference"/>
   
